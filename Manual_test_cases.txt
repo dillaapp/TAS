@@ -1,0 +1,27 @@
+Here is a test pack for manual testing of the screen, adding an employee, removing an employee, and editing an employee:
+
+1 . Manual Test for Adding an Employee:
+
+- Open the application and navigate to the Employees page
+- Click on the "Add Employee" button
+- Fill in the required fields such as First Names, Surname, Salutation, Gender, Employee #, Gross Salary $PY,
+and Employee Profile Colour
+- Save the employee
+- Verify that the employee has been successfully added to the list of employees
+
+2. Manual Test for Removing an Employee:
+
+- Open the application and navigate to the Employees page
+- Find an employee that you want to remove from the list
+- Click on the "Remove" button 
+- Confirm the removal of the employee
+- Verify that the employee has been successfully removed from the list of employees
+
+3. Manual Test for Editing an Employee:
+
+- Open the application and navigate to the Employees page
+- Find an employee that you want to edit from the list and click on it
+- Update the required fields such as First Names, Surname, Salutation, Gender, Employee #, Gross Salary $PY,
+and Employee Profile Colour
+- Save the employee
+- Verify that the employee has been successfully updated in the list of employees

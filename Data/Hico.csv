@@ -1,0 +1,28 @@
+Exe,ID,PreID,PreReqStep,TAE: Comments,Description,Btn_AddEmployee,Btn_RemoveEmployee,Slc_EmployeeByNum,Fld_FirstNames,Fld_Surname,Drp_Salutation,Chk_Male,Chk_Female,Chk_Unspecified,Fld_EmployeeNum,Vld_FullName,Fld_GrossSalary,Chk_Green,Chk_Blue,Chk_Red,Chk_Default,Btn_Cancel,Btn_Save,Employee_UnqNum,EmployeesNum_table,FirstName_table,LastName_table,Salutation_table,ProfileColour_table
+,,,,,,,,,,,,Gender,,,,,,Employee Prof Colour,,,,,,Unique id,Employees table validation,,,,
+,1,,,,Add Employee,,,,,,,,,,,,,,,,,,,,,,,,
+P,1,1,1,,"Click on the ""Add Employee"" button",x,,,,,,,,,,,,,,,,,,,,,,,
+P,1,1,1,,"Fill in the required fields such as First Names, Surname, Salutation, Gender, Employee #, Gross Salary $PY,
+and Employee Profile Colour",,,,Aman,Bete,Mr.,,,,22,Aman Bete,2000,x,,,,,,,,,,,
+P,1,1,1,,Save the employee,,,,,,,,,,,,,,,,,,x,,,,,,
+P,1,1,1,,Verify that the employee has been successfully added to the list of employees,,,,,,,,,,,,,,,,,,,22,22,Aman,Bete,Mr,Green
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Editing an Employee,,,,,,,,,,,,,,,,,,,,,,,,
+P,2,1,1,,Find an employee(by employee number) that you want to edit from the list and click on it,,,22,,,,,,,,,,,,,,,,,,,,,
+P,2,1,1,,"Update the required fields such as First Names, Surname, Salutation, Gender, Employee #, Gross Salary $PY,
+and Employee Profile Colour",,,,Super Duper,,,,,,,,,,,,,,,,,,,,
+P,2,1,1,,Save the employee,,,,,,,,,,,,,,,,,,x,,,,,,
+P,2,1,1,,Verify that the employee has been successfully updated in the list of employees,,,,,,,,,,,,,,,,,,,22,22,Super Duper,Bete,Mr,Green
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,3,,,,Remove Employee,,,,,,,,,,,,,,,,,,,,,,,,
+P,3,1,,,Find an employee(by employee number) that you want to remove from the list,,,22,,,,,,,,,,,,,,,,,,,,,
+P,3,1,,,"Click on the ""Remove"" button ",,x,,,,,,,,,,,,,,,,,,,,,,
+P,3,1,,,Confirm the removal of the employee,,,,,,,,,,,,,,,,,,,22,Invisible,Invisible,Invisible,Invisible,Invisible
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,Editing an Employee,,,,,,,,,,,,,,,,,,,,,,,,
+P,2,1,1,,Find an employee(by employee number) that you want to edit from the list and click on it,,,7,,,,,,,,,,,,,,,,,,,,,
+P,2,1,1,,"Update the required fields such as First Names, Surname, Salutation, Gender, Employee #, Gross Salary $PY,
+and Employee Profile Colour",,,,Super Duper,,,,,,,,,,,,,,,,,,,,
+P,2,1,1,,Cancel,,,,,,,,,,,,,,,,,x,,,,,,,
+P,2,1,1,Fail: Salary,Verify employee detail in the Flieds didn't change (is still the same),,,,Val_John,Val_Doe,,,,,Val_7,John Doe,Val_25 000,,,,,,,,,,,,
+P,2,1,1,,Verify that the employee details are the same in the list of employees,,,,,,,,,,,,,,,,,,,7,7,John,Doe,Mr,Blue
